@@ -13,7 +13,7 @@ def html_pass(page_name):
 
 
 def write_to_csv(data):
-  with open('database.csv', newline='', mode='a') as database2:
+  with open('contacts.csv', newline='', mode='a') as database2:
     email = data["email"]
     subject = data["subject"]
     message = data["message"]
